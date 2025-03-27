@@ -1,9 +1,9 @@
 # Projet d'Identité Visuelle pour SOLIDARITÉ BAGGIO
+<img src="logo.png" width="200" height="auto" alt="Description de l'image">
 
 **Introduction**
 
 Ce projet vise à développer une identité visuelle forte et cohérente pour l'association SOLIDARITÉ BAGGIO, basée au lycée César Baggio à Lille. L'association soutient les étudiants en situation de précarité et a pour objectif de renforcer sa visibilité et sa communication.
-<img src="logo.png" width="200" height="auto" alt="Description de l'image">
 
 **Contexte**
 
