@@ -1,5 +1,5 @@
 # Projet d'Identité Visuelle pour SOLIDARITÉ BAGGIO
-<img src="logo.png" width="200" height="auto" alt="Description de l'image">
+<img src="assets/images/logo.png" width="200" height="auto" alt="Description de l'image">
 
 **Introduction**
 
