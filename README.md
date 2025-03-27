@@ -10,7 +10,7 @@ Ce projet vise à développer une identité visuelle forte et cohérente pour l'
 * **Association :** SOLIDARITÉ BAGGIO
 * **Mission :** Aider les étudiants en situation de précarité
 * **Lieu :** Lycée César Baggio, Lille
-* **Site Web :** [Lien vers le site web de l'association, si disponible]
+* **Site Web :** À venir
 
 **Objectifs du Projet**
 
