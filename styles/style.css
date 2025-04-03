@@ -492,7 +492,7 @@ body.menu-open {
 }
 .btn-donate, .btn-volunteer {
     display: inline-block;
-    padding: 2vh 2vw;
+    padding: 2vh 4vw;
     margin-right: 10px;
     
     background-color: var(--CouleurOrange);
@@ -602,13 +602,13 @@ body.menu-open {
     background-color: var(--CouleurPrimaire);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 95%;
+    width: 100%;
+    gap: 15px;
 }
 
 .img {
     position: relative;
     grid-template-rows: repeat(2, 1fr);
-    padding: 10px;
     overflow: hidden;
 }
 
@@ -751,11 +751,13 @@ iframe {
     padding: 5vh 5vw;
     background-color: var(--CouleurBlueFonce);
 }
+
 .partenaire-footer {
     flex: 1;
     background-color: var(--CouleurBlueFonce);
 
 }
+
 .partenaire-content-footer {
     display: flex;
     flex-wrap: wrap;
@@ -1079,7 +1081,7 @@ address i {
     }
     
     .hero-cta {
-        font-size: 1rem;
+        font-size: 1.4rem;
         padding: 12px 25px;
     }
 
@@ -1140,6 +1142,12 @@ address i {
 
     .container-mail {
         width: 100%;
+    }
+
+    .footer-content {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
     }
     
     
