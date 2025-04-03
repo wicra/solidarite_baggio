@@ -83,12 +83,16 @@ html {
     font-family: var(--FontPrimaire);
 }
 
+body.menu-open {
+    overflow: hidden;
+}
+
 /* HEADER */
 
 .main-nav {
     background-color: var(--CouleurPrimaire);
     padding: 15px 0;
-    margin-top: 2vh;
+    padding-top: 2vh;
     position: sticky;
     top: 0;
     z-index: 10000;
@@ -1149,6 +1153,9 @@ address i {
 
 /* RESPONSIVE NAV */
 @media (max-width: 900px) {
+    .word-carousel {
+        z-index: 10000;
+    }
     .nav-container {
         display: flex;
         flex-direction: initial;
@@ -1171,16 +1178,17 @@ address i {
     
     .nav-content {
         position: fixed;
-        top: 80px;
-        right: -300px;
+        right: -250px;
+        top: 184px;
         width: 250px;
-        height: 100vh;
+        border-radius: 20px 0;
+        height: 85vh;
         background-color: var(--CouleurPrimaire);
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         transition: right 0.3s ease;
         z-index: 1001;
-        padding-top: 20px;
     }
+    
     
     .nav-content.active {
         right: 0;

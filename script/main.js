@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     overlay.className = 'overlay';
     body.appendChild(overlay);
     
+    
     // Fonction pour ouvrir/fermer le menu
     function toggleMenu() {
         navContent.classList.toggle('active');
